@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Overflow",
+  "version": "1.0",
+  "description": "Lovingly roasts you for having too many tabs open",
+  "permissions": ["tabs", "notifications", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
